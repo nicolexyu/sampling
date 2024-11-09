@@ -4,6 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Set random seed to ensure reproducibility
+np.random.seed(42)
+
 # Note: Suppressing FutureWarnings to maintain a clean output. This is specifically to ignore warnings about
 # deprecated features in the libraries we're using (e.g., 'use_inf_as_na' option in Pandas, used by Seaborn),
 # which we currently have no direct control over. This action is taken to ensure that our output remains
@@ -16,6 +19,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
 SECONDARY_TRACE_THRESHOLD = 2
+ITERATIONS = 50000  # This can be modified to 1000 to observe the outputted graphs.
 
 def simulate_event(m):
   """
@@ -68,7 +72,7 @@ def simulate_event(m):
   return p_wedding_infections, p_wedding_traces
 
 # Run the simulation 50000 times
-results = [simulate_event(m) for m in range(50000)]
+results = [simulate_event(m) for m in range(ITERATIONS)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
