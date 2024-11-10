@@ -16,30 +16,90 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
-```
-write your answer here...
+``` 
+
+The purpose of this survey is to understand the primary factors contributing to high turnover rates among entry- and lower-level employees at the company. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+- Target Population: The entry- and lower-level positions across different departments at the company.  
+
+- Sampling Frame: All current entry- and lower-level employees in the company's HR database. 
+
+- Sampling Units: Individual employees who are currently in entry- and lower-level positions.
+
+- Observational Units: Individual employees in entry- and lower-level positions.
+
+- Sampling  Strategy: A stratified random sampling strategy will be used. The employee population will be divided into strata based on departments, ensuring that each department with high turnover is represented. Then, a random sample of employees will be selected from each department stratum.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How satisfied are you with your current role and responsibilities?
+    - Very satisfied
+    - Somewhat satisfied
+    - Neutral
+    - Somewhat dissatisfied
+    - Very dissatisfied
+
+2. To what extent do you feel supported by your immediate supervisor?
+    - Very supported
+    - Somewhat supported
+    - Neutral
+    - Somewhat unsupported
+    - Very unsupported
+
+3. Do you feel that the company provides adequate resources for professional development?
+    - Yes, definitely
+    - Somewhat
+    - Neutral
+    - Not really
+    - No, not at all
+
+4. How frequently do you experience work-related stress?
+    - Almost every day
+    - A few times a week
+    - Occasionally
+    - Rarely
+    - Never
+
+5. Do you feel the company offers a good work-life balance?
+    - Yes, very good
+    - Somewhat good
+    - Neutral
+    - Somewhat poor
+    - Very poor
+
+6. How would you rate the opportunities for career growth within the company?
+    - Excellent
+    - Good
+    - Fair
+    - Poor
+    - Very poor
+
+7. Have you considered leaving the company in the past six months? 
+    - Yes
+    - No
+
+8. If you answered "Yes" to the previous question, please select the primary reasons that made you consider leaving. (Select all that apply)
+    - Compensation
+    - Limited Career Growth
+    - Lack of Recognition
+    - Poor work-life balance
+    - Issues with management or leadership
+    - Unsatisfactory work environment
+    - Other (please specify)
+
+9. Would you recommend this company to a friend or colleague? 
+    - Yes
+    - No
+    - Not Sure
+
+10. What improvements would you suggest to increase job satisfaction? (Input your comments below)
 ```
 
 ## Rubric
