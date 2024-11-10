@@ -32,6 +32,8 @@ Describe your target population, sampling frame, sampling units, and observation
 
 - Sampling Units: Individual employees who are currently in entry- and lower-level positions.
 
+- Observational Units: Individual employees in entry- and lower-level positions.
+
 - Sampling  Strategy: A stratified random sampling strategy will be used. The employee population will be divided into strata based on departments, ensuring that each department with high turnover is represented. Then, a random sample of employees will be selected from each department stratum.
 ```
 
